@@ -1,5 +1,5 @@
 import Testing
-@testable import DailyApp
+@testable import PipelineCheck
 
 struct TallyTests {
     @Test func startsAtZero() {
