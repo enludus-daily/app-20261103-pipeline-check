@@ -36,7 +36,7 @@ targets:
           - UIInterfaceOrientationPortrait
     settings:
       base:
-        PRODUCT_BUNDLE_IDENTIFIER: com.enludus.daily.000
+        PRODUCT_BUNDLE_IDENTIFIER: com.enludus.daily.001
         PRODUCT_NAME: PipelineCheck
         # iPhone だけ（iPad 対応にすると iPad のスクリーンショットも提出に要る）
         TARGETED_DEVICE_FAMILY: "1"
@@ -52,7 +52,7 @@ targets:
       - target: PipelineCheck
     settings:
       base:
-        PRODUCT_BUNDLE_IDENTIFIER: com.enludus.daily.000.tests
+        PRODUCT_BUNDLE_IDENTIFIER: com.enludus.daily.001.tests
         GENERATE_INFOPLIST_FILE: YES
 schemes:
   PipelineCheck:
